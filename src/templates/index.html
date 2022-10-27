@@ -21,35 +21,35 @@
     <meta name="theme-color" content="#000" />
   </head>
 
-  <body>
+  <body class="bg-black">
     <!-- Add your site or application content here -->
 
     <!-- START: Header -->
-    <header class="w-full z-50 bg-black">
+    <header class="absolute w-full z-50 bg-transparent ">
       <div class="container">
         <div class="flex flex-strech items-center">
-          <div class="w-56 items-center">
-            <img src="../images/content/logo.png" alt="Rental Car adalah Sebuah mobil rental yang baru beroperasi">
+          <div class="w-full items-center">
+            <img src="../images/design/logo.svg" alt="Rental Car adalah Sebuah mobil rental yang baru beroperasi">
           </div>
-          <div class="w-20"></div>
+          <div class="w-full py-10"></div>
           <!-- START: Menu Hamburger wrapper -->
-          <div class="w-auto">
-            <ul id="menu" class="fixed flex bg-white inset-0 flex-col invisible items-center justify-center opacity-0 md:visible md:flex-row md:bg-transparent md:relative md:opacity-100">
-              <li class="mr-24 py-6 md:py-0">
+          <div class="w-auto py-10">
+            <ul id="menu" class="fixed flex bg-gray-500 inset-0 flex-col invisible items-center justify-center opacity-0 md:visible md:flex-row md:bg-transparent md:relative md:opacity-100">
+              <li class="md:mr-28 py-6 md:py-0">
                 <a href="#" class="text-white hover:text-black hover:underline">HOME</a>
-              <li class="mr-24 py-6 md:py-0">
+              <li class="md:mr-28 py-6 md:py-0">
                 <a href="#" class="text-white hover:text-white hover:underline">GARAGE</a>
-              <li class="mr-24 py-6 md:py-0">
+              <li class="md:mr-28 py-6 md:py-0">
                 <a href="#" class="text-white hover:text-white hover:underline">ABOUT</a>
-              <li class="mr-24 py-6 md:py-0">
+              <li class="md:mr-28 py-6 md:py-0">
                 <a href="#" class="text-white hover:text-white hover:underline">FAQ</a>
-              <li class="mr-24 py-6 md:py-0">
+              <li class="md:mr-28 py-6 md:py-0">
                 <a href="#" class="text-white hover:text-white hover:underline">CONTACT</a> 
               </li>
             </ul>
           </div>
           <!-- END: Menu Hamburger wrapper -->
-          <div class="w-auto">
+          <div class="w-auto py-10">
             <ul class="flex items-center">
               <li class="ml-3 block md:hidden">
                 <button id="menu-toggler" class="relative flex z-50 items-center justify-center w-8 h-8 text-black focus:outline-none">
@@ -74,12 +74,343 @@
               </li>
             </ul>
           </div>
-
+       <div class="md:w-auto py-10"></div>
         </div>
       </div>
     </header>
     <!-- END: Header -->
 
+    <!-- START : Content -->
+
+    <section class="flex items-center bg-transparent hero">
+      <div class="invisible md:visible w-1/6 md:relative md:w-auto mt-20 iconn">
+        <a href="https://www.instagram.com/usman.abdat/?hl=id">
+          <img src="../images/design/fb.png" alt="" class="w-5 mx-28 my-10">
+        </a>
+        <a href="#">
+          <img src="../images/design/ig.png" alt="" class="w-5 mx-28 my-10">
+        </a>
+        <a href="#">
+          <img src="../images/design/wa.png" alt="" class="w-5 mx-28 my-10">
+        </a>
+        <a href="#">
+          <img src="../images/design/email.png" alt="" class="w-5 mx-28 my-10">
+        </a>
+        <a href="#">
+          <img src="../images/design/message.png" alt="" class="w-5 mx-28 my-10">
+        </a>
+      </div>
+      <!-- START: Content | Left side -->
+      <div class="w-full absolute z-20 inset-0 md:relative md:w-1/4 text-center flex flex-col justify-center hero-caption mt-96">
+        <h1 class=" px-8 md:px-0 text-5xl md:text-7xl md:tracking-widest md:text-left leading-tight font-bold text-white text-left garage">
+          LUXURY <br class="">LIFESTYLE <br class="" /> RENTALS
+        </h1>
+        <h2 class="text-xl px-8 md:px-0 text-white pt-5 md:text-left text-left">THE AMG GLE Coupe 2022</h2>
+        <h2 class="px-8 md:px-0 text-yellow-100 md:text-left text-left">IDR 500.000 <font class="text-gray-500 ">/ Per Day</font> </h2>
+        <div class="md:text-left">
+          <a href="#" class="bg-transparent text-white hover:bg-black hover:text-yellow-100 rounded-full px-8 py-3 mt-4 inline-block flex-none-transition duration-200 borderr">Drive Now</a>
+        </div>
+      </div>
+      <!-- END: Content | Left side -->
+
+      <div class="invisible relative inset-0 md:relative md:w-3/4 md:visible ">
+        <div class="relative hero-image">
+          <div class="overlay inset-0 opacity-30 z-10"></div>
+        </div>
+        <img
+        class="relative inset-0 md:relative w-full h-full object-contain h-48 w-full garagee"
+        src="../images/content/garage.jpg" alt="" />
+      </div>
+      <div class="inset-0 md:hidden md:w-3/4">
+        <img
+        class="absolute inset-0 md:hidden w-full h-full object-contain h-48 w-full -mt-60"
+        src="../images/content/garagemobile.jpg" alt="" />
+      </div>
+
+    </section>
+    <!-- END : Content -->
+
+    <!-- START : TODAY SPECIAL -->
+    <section class="flex flex-col md:py-16 md:px-4 mt-60 md:mt-0">
+
+      <div class="container md:mx-auto md:px-20">
+        <div class="md:flex flex-start mb-4 justify-center items-center">
+          <div class="w-1/2 mx-auto">
+            <h3 class="text-2xl md:text-5xl capitalize font-bold text-white mx-auto md:mx-0 mb-4">
+              Today Special
+            </h3>
+          </div>
+          
+          <div class="flex w-full md:w-1/2 md:mx-auto ml-2">
+            <div class="mx-auto">
+              <div class="flex mx-auto mr-7 justify-center items-center">
+                <img src="../images/design/bmw.png" alt="" class="object-contain h-6 w-6">
+                <h1 class="ml-2 md:ml-5 font-semibold text-white">BMW</h1>
+              </div>
+            </div>
+            <div class="mx-auto">
+              <div class="flex mx-auto mr-7 justify-center items-center">
+                <img src="../images/design/innova.png" alt="" class="object-contain h-6 w-6">
+                <h1 class="ml-2 md:ml-5 font-semibold text-white">INNOVA</h1>
+              </div>
+            </div>
+            <div class="mx-auto">
+              <div class="flex mx-auto mr-7 justify-center items-center">
+                <img src="../images/design/sportcar (2).png" alt="" class="object-contain h-6 w-6">
+                <h1 class="ml-2 md:ml-5 font-semibold text-white">SPORTCAR</h1>
+              </div>
+          </div>
+          </div>
+          <div class="w-1/6 md:visible invisible">
+            <div class="mx-auto">
+              <a href="#" class="text-white rounded-full hover:text-yellow-100 borderr p-5">VIEW ALL</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="overflow-x-hidden px-4 md:px-20 py-4" id="carousel">
+          <div class="container mx-auto"></div>
+
+            <div class="flex -mx-4 flex-row relative">
+            <!-- START: item carousel 1 -->
+
+                <div class="px-4 relative card">
+                  <div class="rounded-xl overflow-hidden card-shadow" style="width:287px;">
+                    <img src="../images/content/marcedez.png" alt="" class="w-full h-full object-cover object-center">
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mt-4 text-white text-center">MARCEDEZ</h5>
+                    <h2 class="px-8 md:px-0 text-yellow-100 md:text-center text-center">IDR 500.000 <span class="text-gray-500 ">/ Per Day</span> </h2>
+                    <a href="#" class="stretched-link">
+                      <!-- fake children -->
+                    </a>
+                  </div>
+                </div>
+
+            <!-- END: item carousel 1 -->
+
+            <!-- START: item carousel 2 -->
+
+                <div class="px-4 relative card">
+                  <div class="rounded-xl overflow-hidden card-shadow" style="width:287px;">
+                    <img src="../images/content/innova.png" alt="" class="w-full h-full object-cover object-center">
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mt-4 text-white text-center">MARCEDEZ</h5>
+                    <h2 class="px-8 md:px-0 text-yellow-100 md:text-center text-center">IDR 500.000 <span class="text-gray-500 ">/ Per Day</span> </h2>
+                    <a href="#" class="stretched-link">
+                      <!-- fake children -->
+                    </a>
+                  </div>
+                </div>
+
+            <!-- END: item carousel 2 -->
+            <!-- START: item carousel 3 -->
+
+                <div class="px-4 relative card">
+                  <div class="rounded-xl overflow-hidden card-shadow" style="width:287px;">
+                    <img src="../images/content/sportcar.png" alt="" class="w-full h-full object-cover object-center">
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mt-4 text-white text-center">MARCEDEZ</h5>
+                    <h2 class="px-8 md:px-0 text-yellow-100 md:text-center text-center">IDR 500.000 <span class="text-gray-500 ">/ Per Day</span> </h2>
+                    <a href="#" class="stretched-link">
+                      <!-- fake children -->
+                    </a>
+                  </div>
+                </div>
+
+            <!-- END: item carousel 3 -->
+            <!-- START: item carousel 4 -->
+
+                <div class="px-4 relative card">
+                  <div class="rounded-xl overflow-hidden card-shadow" style="width:287px;">
+                    <img src="../images/content/marcedez.png" alt="" class="w-full h-full object-cover object-center">
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mt-4 text-white text-center">MARCEDEZ</h5>
+                    <h2 class="px-8 md:px-0 text-yellow-100 md:text-center text-center">IDR 500.000 <span class="text-gray-500 ">/ Per Day</span> </h2>
+                    <a href="#" class="stretched-link">
+                      <!-- fake children -->
+                    </a>
+                  </div>
+                </div>
+
+            <!-- END: item carousel 4 -->
+            <!-- START: item carousel 5 -->
+
+                <div class="px-4 relative card">
+                  <div class="rounded-xl overflow-hidden card-shadow" style="width:287px;">
+                    <img src="../images/content/marcedez.png" alt="" class="w-full h-full object-cover object-center">
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mt-4 text-white text-center">MARCEDEZ</h5>
+                    <h2 class="px-8 md:px-0 text-yellow-100 md:text-center text-center">IDR 500.000 <span class="text-gray-500 ">/ Per Day</span> </h2>
+                    <a href="#" class="stretched-link">
+                      <!-- fake children -->
+                    </a>
+                  </div>
+                </div>
+
+            <!-- END: item carousel 5 -->
+            <!-- START: item carousel 5 -->
+
+                <div class="px-4 relative card">
+                  <div class="rounded-xl overflow-hidden card-shadow" style="width:287px;">
+                    <img src="../images/content/marcedez.png" alt="" class="w-full h-full object-cover object-center">
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mt-4 text-white text-center">MARCEDEZ</h5>
+                    <h2 class="px-8 md:px-0 text-yellow-100 md:text-center text-center">IDR 500.000 <span class="text-gray-500 ">/ Per Day</span> </h2>
+                    <a href="#" class="stretched-link">
+                      <!-- fake children -->
+                    </a>
+                  </div>
+                </div>
+
+            <!-- END: item carousel 5 -->
+             <!-- START: item carousel 5 -->
+
+             <div class="px-4 relative card">
+              <div class="rounded-xl overflow-hidden card-shadow" style="width:287px;">
+                <img src="../images/content/marcedez.png" alt="" class="w-full h-full object-cover object-center">
+              </div>
+              <div>
+                <h5 class="text-lg font-semibold mt-4 text-white text-center">MARCEDEZ</h5>
+                <h2 class="px-8 md:px-0 text-yellow-100 md:text-center text-center">IDR 500.000 <span class="text-gray-500 ">/ Per Day</span> </h2>
+                <a href="#" class="stretched-link">
+                  <!-- fake children -->
+                </a>
+              </div>
+            </div>
+
+        <!-- END: item carousel 5 --> <!-- START: item carousel 5 -->
+
+                <div class="px-4 relative card">
+                  <div class="rounded-xl overflow-hidden card-shadow" style="width:287px;">
+                    <img src="../images/content/marcedez.png" alt="" class="w-full h-full object-cover object-center">
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mt-4 text-white text-center">MARCEDEZ</h5>
+                    <h2 class="px-8 md:px-0 text-yellow-100 md:text-center text-center">IDR 500.000 <span class="text-gray-500 ">/ Per Day</span> </h2>
+                    <a href="#" class="stretched-link">
+                      <!-- fake children -->
+                    </a>
+                  </div>
+                </div>
+
+            <!-- END: item carousel 5 -->
+             <!-- END: item carousel 5 --> <!-- START: item carousel 5 -->
+
+             <div class="px-4 relative card">
+              <div class="rounded-xl overflow-hidden card-shadow" style="width:287px;">
+                <img src="../images/content/marcedez.png" alt="" class="w-full h-full object-cover object-center">
+              </div>
+              <div>
+                <h5 class="text-lg font-semibold mt-4 text-white text-center">MARCEDEZ</h5>
+                <h2 class="px-8 md:px-0 text-yellow-100 md:text-center text-center">IDR 500.000 <span class="text-gray-500 ">/ Per Day</span> </h2>
+                <a href="#" class="stretched-link">
+                  <!-- fake children -->
+                </a>
+              </div>
+            </div>
+
+        <!-- END: item carousel 5 -->
+            
+            </div>
+        </div>
+    </section>
+    <!-- END : TODAY SPECIAL -->
+
+    <!-- START: ABOUT US -->
+    <section>
+      <div class=" md:flex mt-6">
+        <div class="rounded-xl overflow-hidden">
+          <img src="../images/design/aboutus.png" alt="" class="w-full h-full object-cover object-center">
+        </div>
+        <div class="absolute md:relative md:pt-28 md:-ml-10 md:visible invisible md:w-auto w-0">
+          <h2 class="text-white font-bold  text-4xl text-center justify-start items-center flex">RENTAL CAR</h2>
+          <a href="#">
+            <h2 class="text-white font-semibold text-yellow-100 text-2xl text-center justify-end items-center flex mt-10 hover:text-white">Follow Us</h2>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- END: ABOUT US -->
+
+    <!-- START: FAQ -->
+
+    <section class="md:flex justify-center items-center md:mx-52">
+      <div class="w-full md:w-1/2">
+        <div class="block">
+          <h2 class="text-white text-bold md:text-4xl mt-4 text-2xl px-2">LUXURY CAR RENTAL MIAMI</h2>
+          <p class="block text-white mt-4 text-xs px-2">Are you looking for exotic or luxury car rental in Miami ? <br />
+            You want to rent a luxury car or maybe exotic car? Get in touch with Rental Car - <br />
+            Exotic and Luxury Cart Rental Miami agency. whether you need a exotic or luxury carrentals <br />
+            for you business or for play.</p>
+        </div>
+          <div class="flex my-10">
+            <div class="flex items-center">
+              <img src="../images/design/mileage.png" alt="" class="md:mx-5 mx-2 text-semibold" style="width: 20px;">
+              <h2 class="text-white">MILEAGE <br /> UNLIMITED</h2>
+            </div>
+          <div class="flex items-center">
+              <img src="../images/design/pickup.png" alt="" class="md:mx-5 mx-2 text-semibold" style="width: 20px;">
+              <h2 class="text-white">PICK UP <br /> SERVICE</h2>
+            </div>
+          <div class="flex items-center">
+              <img src="../images/design/delivery.png" alt="" class="md:mx-5 mx-2 text-semibold" style="width: 20px;">
+              <h2 class="text-white">DELIVERY TO <br /> DOOR</h2>
+            </div>
+          </div>
+      </div>
+      <div class="w-full md:w-1/2 md:ml-20 md:-mt-10">
+        <img src="../images/design/faq.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- END: FAQ -->
+
+    <section class="relative md:flex justify-center items-center md:mx-52 md:mt-10">
+      <div class="flex justify-start md:w-1/2 w-full my-5 px-5">
+        <img src="../images/design/footer.png" alt="">
+        <div class="block ml-5 text-left">
+          <h1 class="text-white">Medan - MDN - | IDN</h1>
+          <h1 class="text-white">+628-9773-1245</h1>
+          <h1 class="text-white">usmanabdat6@gmail.com</h1>
+          <h1 class="text-white mt-3">Privacy Policy</h1>
+        </div>
+      </div>
+      <div class="relative md:flex md:justify-star md:items-start md:w-1/2 w-full">
+        <div class="block">
+          <div class="mx-20 md:mx-0 mb-4">
+            <input type="text" id="name" class="border rounded hover:borderr" style="background-color:#000000;" placeholder=" Name" />
+          </div>
+          <div class="mx-20 md:mx-0 mb-4">
+            <input type="email" id="Email" class="border rounded hover:borderr" style="background-color:#000000;" placeholder=" Email" />
+          </div>
+          <div class="mx-20 md:mx-0 mb-4">
+            <input type="tel" id="Phone" class="border rounded hover:borderr" style="background-color:#000000;" placeholder=" Phone" />
+          </div> 
+        </div>
+        <div class="block mb-4 ml-3">
+          <textarea name="Message" cols="30" rows="3" placeholder=" Catatan" class="border rounded hover:borderr mx-10 md:mx-0 " style="background-color:#000000;"></textarea>
+          <a href="#" class="block borderr text-white bg-yellow-500 text-center py-1 mx-20 md:mx-0">SEND</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="flex text-center justify-center px-4 md:mx-60 py-2">
+      <div class="md:w-1/2"></div>
+      <div class="md:w-1/2">
+        <p class="text-sm text-white">
+          Copyright 2022 | Rental . All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () {
