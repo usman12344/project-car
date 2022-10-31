@@ -6,3 +6,4 @@ import "./carousel";
 import "./slider";
 import "./shippingCart";
 import "./shippingDetail";
+import "./cost";

@@ -5,7 +5,8 @@ let data = {
     "email-address": "",
     "address": "",
     "phone-number": "",
-    "courier": "",
+    "pickupdate": "",
+    "dropupdate": "",
     "payment": "",
 }
 
